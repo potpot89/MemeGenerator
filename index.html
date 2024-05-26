@@ -26,8 +26,23 @@
           <button>
             <img src="img/llama.jpg" alt="llama" />
           </button>
+
+          <h3>...or upload your own picture!</h3>
+          <!-- the button to upload a file is an input with type = file -->
+          <input type="file" />
+          <button>Next ></button>
         </article>
-        <article id="insert-text"></article>
+        <article id="insert-text">
+          <h2>Insert your text</h2>
+          <span>Above text</span><br />
+          <input type="text" id="top-line" /><br />
+          <span>Below text</span> <br />
+          <input type="text" id="bottom-line" /><br />
+          <!-- the download button is a link and is  made into a button with css-->
+          <a id="download" download="meme.jpg"> Download</a>
+          <button>< Previous</button>
+          <button>Next ></button>
+        </article>
       </section>
       <canvas id="canvas" width="500" height="500"></canvas>
     </main>
