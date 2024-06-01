@@ -1,11 +1,20 @@
+html {
+  background-color: rgb(196, 247, 247);
+  color: rgb(19, 53, 116);
+}
+
 article img {
   max-width: 150px;
 }
 
 canvas {
-  border: 1px solid black;
+  border: 1px solid rgb(19, 53, 116);
 }
 
+button {
+  color: rgb(8, 8, 65);
+  background-color: rgb(186, 212, 228);
+}
 #download {
   background-color: green;
   padding: 0.5rem 1rem;
@@ -13,4 +22,8 @@ canvas {
   display: inline-block;
   color: white;
   text-decoration: none;
+}
+
+#text-selection {
+  display: none;
 }
